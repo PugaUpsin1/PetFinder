@@ -7,12 +7,16 @@ import androidx.fragment.app.FragmentTransaction;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
+import android.util.Log;
 
 import com.example.inicio.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
-
     ActivityMainBinding binding;
+
+    HomeFragment home = new HomeFragment();
+    PetsFragment pets = new PetsFragment();
+    ProfileFragment profile = new ProfileFragment();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,10 +25,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
         replaceFragment(new HomeFragment());
 
-
         binding.bottomNavigationView.setOnItemSelectedListener(item -> {
-
-            if(item.getItemId() ==R.id.home){
+            /*switch(item.getItemId()){
+                case new R
+            }
+            */
+            if(item.getItemId() == R.id.home){
                 replaceFragment(new HomeFragment());
             }else if(item.getItemId() ==R.id.pets){
                 replaceFragment(new PetsFragment());
@@ -43,11 +49,3 @@ public class MainActivity extends AppCompatActivity {
     }
 
 }
-
-
-
-
-
-
-
-
