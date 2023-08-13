@@ -11,28 +11,41 @@
         android:id="@+id/txtTituloMascotas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginRight="100dp"
-        android:fontFamily="sans-serif-black"
-        android:text="Mi mascota"
-        android:textColor="@color/naranja"
-        android:textSize="25dp"
-        android:textStyle="bold" />
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="50dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="MI MASCOTA"
+        android:textColor="@color/roja"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"
+         />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="78dp"
-        android:layout_height="85dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="100dp"
-        android:layout_marginRight="100dp"
-        android:src="@drawable/baseline_pets_24" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="200dp"
+        android:background="@drawable/perrito2" />
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <TextView
+        android:id="@+id/txtNombreMascota"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginRight="50dp"
+        android:background="@color/azul"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:padding="10dp"
+        android:shadowColor="@color/black"
+        android:text="OSITO"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
 
 </FrameLayout>

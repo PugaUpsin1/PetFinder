@@ -25,5 +25,6 @@
         app:menu="@menu/bottom_navigator"
         app:itemIconSize="30dp"
         app:itemIconTint="@drawable/item_selector"
+        android:fontFamily="sans-serif-condensed-medium"
         />
 </LinearLayout>

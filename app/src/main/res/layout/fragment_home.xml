@@ -9,16 +9,18 @@
     tools:visibility="visible">
 
     <TextView
-        android:id="@+id/txtTituloInicio"
+        android:id="@+id/txtTituloMascotas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginRight="30dp"
-        android:fontFamily="sans-serif-black"
-        android:text="¿Dónde esta mi mascota?"
-        android:textColor="@color/naranja"
-        android:textSize="25dp"
-        android:textStyle="bold" />
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="50dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="¿DÓNDE ESTA MI MASCOTA?"
+        android:textColor="@color/roja"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
 
 </FrameLayout>
